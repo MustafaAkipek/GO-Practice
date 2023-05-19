@@ -16,6 +16,5 @@ func main() {
 }
 
 func myFunc() {
-
 	fmt.Println(funcVar)
 }
