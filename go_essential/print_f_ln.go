@@ -34,11 +34,4 @@ func main() {
 	fmt.Print("Benim Adim ", name, " ve ben ", age, " yasindayim.\n") // \n --> enter new line
 	fmt.Println("Benim Adim", name, "ve ben", age, "yasindayim.")
 	fmt.Printf("Benim Adim %v ve ben %v yasindayim.", name, age)
-
-
-	
-
-
-
-
 }
