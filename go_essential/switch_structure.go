@@ -20,4 +20,23 @@ func main() {
 	default:
 		fmt.Println("Gecersiz not")
 	}
+
+	// fallthrough
+
+	switch x := 25; {
+	case x < 20:
+		fmt.Printf("%d kucuktur 20\n", x)
+		fallthrough
+	
+	case x < 50:
+		fmt.Printf("%d kucuktur 50\n", x)
+		fallthrough
+
+	case x < 100:
+		fmt.Printf("%d kucuktur 100\n", x)
+		fallthrough
+
+	case x < 200:
+		fmt.Printf("%d kucuktur 200\n", x)
+	}
 }
